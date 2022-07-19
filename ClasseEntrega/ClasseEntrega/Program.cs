@@ -9,6 +9,8 @@ namespace ClasseEntrega
         {
             Filmes piratasDoCaribe = new Filmes("Piratas do Caribe", "Ação", 10, 200, "Disney", "Inglês",
                 "3D");
+
+            Console.WriteLine(piratasDoCaribe.ToString());
         }
     }
 }
