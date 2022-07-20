@@ -8,7 +8,6 @@ namespace ClasseEntrega.Src
 {
     public class Filmes
     {
-        
         public string Titulo { get; set; }
         public string Genero { get; set; }
         public int Classificacao { get; set; }
@@ -31,13 +30,13 @@ namespace ClasseEntrega.Src
 
         public override string ToString()
         {
-            return $"\n Título do filme: {Titulo} + " +
-                $"Genero: {Genero}" +
-                $"Classificação Indicativa: {Classificacao}" +
-                $"Duração: {Duracao}" +
-                $"Estúdio: {Estudio}" +
-                $"Idioma: {Idioma}" +
-                $"Tipo de Reprodução: {this.tipoReproducao}";
+            return $"\n Título do filme: {Titulo}" +
+                $"\n Genero: {Genero}" +
+                $"\n Classificação Indicativa: {Classificacao}" +
+                $"\n Duração: {Duracao}" +
+                $"\n Estúdio: {Estudio}" +
+                $"\n Idioma: {Idioma}" +
+                $"\n Tipo de Reprodução: {this.tipoReproducao}";
         }
     }
 
